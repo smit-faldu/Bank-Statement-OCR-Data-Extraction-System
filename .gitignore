@@ -1,0 +1,496 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be added to the global gitignore or merged into this project gitignore.  For a PyCharm
+#  project, it is recommended to ignore the entire .idea directory.
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Project-specific ignores
+# ======================
+
+# Environment variables (keep .env.example but ignore actual .env)
+.env
+
+# Output directories
+output/
+streamlit_output/
+demo_output/
+temp_output/
+results/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Log files
+*.log
+logs/
+debug.log
+error.log
+processing.log
+
+# Cache directories
+.cache/
+cache/
+__pycache__/
+
+# Processed images and temporary files
+corrected_images/
+temp_images/
+processed/
+*.processed
+
+# OCR temporary files
+ocr_temp/
+tesseract_temp/
+
+# AI model cache
+.transformers_cache/
+.huggingface/
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Test files and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+test_results/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large files that shouldn't be in git
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+
+# But keep the demo video (override the above rule)
+!Recording*.mp4
+
+# Large image files (keep sample data but ignore large outputs)
+*.tiff
+*.tif
+# But keep sample data
+!gmindia-challlenge-012024-datas/**/*.tiff
+!gmindia-challlenge-012024-datas/**/*.tif
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data
+config.json
+secrets.json
+credentials.json
+
+# API keys and tokens (double protection)
+*api_key*
+*token*
+*secret*
+*password*
+
+# But keep example files
+!*.example
+!*_example.*
+!example_*
+
+# Node modules (if any JS tools are added later)
+node_modules/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Conda environments
+.conda/
+
+# Docker
+.dockerignore
+Dockerfile.local
+docker-compose.override.yml
+
+# Terraform (if infrastructure as code is added)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Local development
+local/
+dev/
+development/
+
+# Performance profiling
+*.prof
+*.profile
+
+# Memory dumps
+*.dump
+*.dmp
+
+# Core dumps
+core.*
+
+# Temporary directories created by the application
+temp_*/
+tmp_*/
+
+# User-specific files
+user_config.json
+my_settings.json
+personal_notes.txt
+
+# Generated documentation
+docs/_build/
+site/
+
+# Coverage reports
+.coverage.*
+coverage.xml
+*.cover
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Bandit security linter
+.bandit
+
+# Safety security checker
+safety-report.json
+
+# Local SSL certificates
+*.pem
+*.key
+*.crt
+*.cert
+
+# Local database backups
+*.sql.bak
+*.dump.sql
+
+# Editor swap files
+.*.swp
+.*.swo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Vim
+*.swp
+*.swo
+*~
+.viminfo
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# Local history
+.history/
+
+# Windows shortcuts
+*.lnk
+
+# Temporary Internet Files
+Temporary Internet Files/
+
+# Windows Search Index
+Windows Search Index/
+
+# Game save files (just in case)
+*.sav
+*.save
+
+# Application-specific temporary files
+streamlit_temp/
+ocr_cache/
+ai_cache/
+processing_temp/
+
+# Keep important files (override above rules)
+!requirements.txt
+!.env.example
+!README.md
+!LICENSE
+!setup.py
+!main.py
+!streamlit_app.py
+!run_app.py
+!demo_web_app.py
+!batch_process.py
+
+# Keep sample data structure but ignore large files within
+!gmindia-challlenge-012024-datas/
+gmindia-challlenge-012024-datas/**/*.pdf
+# But keep smaller image samples
+!gmindia-challlenge-012024-datas/**/*.jpg
+!gmindia-challlenge-012024-datas/**/*.jpeg
+!gmindia-challlenge-012024-datas/**/*.png
+
+# Keep documentation assets
+!docs/
+!images/
+!screenshots/
+!assets/
+
+# Keep configuration examples
+!config/
+!examples/
+!samples/
+
+# Final catch-all for any missed temporary files
+*temp*
+*tmp*
+*cache*
+*backup*
