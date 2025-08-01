@@ -44,29 +44,37 @@ A comprehensive AI-powered pipeline for extracting structured data from scanned 
 
 ### 📹 Demo Video
 
-**🎬 Watch the Live Demo:**
+**🎬 Watch the Complete Live Demo:**
 
-<!-- Method 1: Direct GitHub video embedding -->
-<video width="100%" controls>
-  <source src="https://github.com/smit-faldu/Bank-Statement-OCR-Data-Extraction-System/raw/main/Recording%202025-08-01%20162834.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![🎥 Watch Full Demo Video](https://img.shields.io/badge/🎥_Watch_Full_Demo-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1k8tvK-vDEIecNmqX58MHGidnQFpatTzP/view?usp=sharing)
 
-<!-- Method 2: GitHub's markdown video support -->
-https://user-images.githubusercontent.com/YOUR_USER_ID/video-id-here.mp4
-
-> 📹 **Live Demo Video**: Complete workflow from upload to results in under 10 seconds!
+> **📺 [Click here to watch the complete demo video](https://drive.google.com/file/d/1k8tvK-vDEIecNmqX58MHGidnQFpatTzP/view?usp=sharing)** - See the entire workflow in action!
 > 
-> **🎯 To get the video working:**
-> 1. **Create a GitHub Issue** in your repository
-> 2. **Drag and drop** the video file into the issue comment box
-> 3. **Copy the generated URL** (starts with `https://user-images.githubusercontent.com/`)
-> 4. **Replace** `https://user-images.githubusercontent.com/YOUR_USER_ID/video-id-here.mp4` above
-> 5. **Close the issue** (or keep it as documentation)
-> 
-> **Alternative viewing:**
-> - **📁 Download**: [Recording 2025-08-01 162834.mp4](./Recording%202025-08-01%20162834.mp4) (Git LFS)
-> - **🌐 GitHub**: [View on GitHub](https://github.com/smit-faldu/Bank-Statement-OCR-Data-Extraction-System/blob/main/Recording%202025-08-01%20162834.mp4)
+> **🎬 What you'll see in the demo:**
+> - 🚀 **Web App Launch**: Starting the Streamlit interface
+> - 📤 **File Upload**: Drag & drop a bank statement  
+> - 👁️ **Live Preview**: Document preview before processing
+> - 🎯 **Custom Prompts**: Tailoring extraction requirements
+> - 🔄 **Real-time Processing**: Watch OCR and AI extraction with progress indicators
+> - 📊 **Interactive Results**: Explore data in Summary, Transactions, and JSON views
+> - 💾 **Export Options**: Download results as JSON and CSV files
+> - ⚡ **Performance**: Complete processing in under 10 seconds!
+
+### 🎯 **Quick Preview - What the Demo Shows:**
+
+```
+🎬 Demo Timeline:
+├── 00:00 - 🚀 Application startup and interface overview
+├── 00:30 - 📤 File upload demonstration (drag & drop)
+├── 01:00 - 👁️ Document preview and validation
+├── 01:30 - 🎯 Custom prompt configuration
+├── 02:00 - 🔄 Live OCR processing with progress bars
+├── 02:30 - 🤖 AI extraction in real-time
+├── 03:00 - 📊 Results dashboard exploration
+├── 03:30 - 💳 Transaction data analysis
+├── 04:00 - 📄 JSON output examination
+└── 04:30 - 💾 Export functionality demonstration
+```
 
 **🎬 What you'll see in this demo:**
 - 🚀 **Web App Launch**: Starting the Streamlit interface
