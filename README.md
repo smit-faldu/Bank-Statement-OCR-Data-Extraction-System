@@ -47,6 +47,8 @@ A comprehensive AI-powered pipeline for extracting structured data from scanned 
   Your browser does not support the video tag. <a href="Recording 2025-08-01 162834.mp4">Download the demo video</a>
 </video>
 
+> 📝 **Note**: The demo video is stored using Git LFS (Large File Storage) due to its size (62MB). If you're cloning this repository and want the video, make sure you have Git LFS installed: `git lfs install`
+
 **🎬 What you'll see in this demo:**
 - 🚀 **Web App Launch**: Starting the Streamlit interface
 - 📤 **File Upload**: Drag & drop a bank statement
