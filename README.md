@@ -42,12 +42,31 @@ A comprehensive AI-powered pipeline for extracting structured data from scanned 
 
 **See the complete system in action - from upload to results in under 10 seconds!**
 
+### 📹 Demo Video
+
+**🎬 Watch the Live Demo:**
+
+<!-- Method 1: Direct GitHub video embedding -->
 <video width="100%" controls>
-  <source src="Recording 2025-08-01 162834.mp4" type="video/mp4">
-  Your browser does not support the video tag. <a href="Recording 2025-08-01 162834.mp4">Download the demo video</a>
+  <source src="https://github.com/smit-faldu/Bank-Statement-OCR-Data-Extraction-System/raw/main/Recording%202025-08-01%20162834.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 
-> 📝 **Note**: The demo video is stored using Git LFS (Large File Storage) due to its size (62MB). If you're cloning this repository and want the video, make sure you have Git LFS installed: `git lfs install`
+<!-- Method 2: GitHub's markdown video support -->
+https://user-images.githubusercontent.com/YOUR_USER_ID/video-id-here.mp4
+
+> 📹 **Live Demo Video**: Complete workflow from upload to results in under 10 seconds!
+> 
+> **🎯 To get the video working:**
+> 1. **Create a GitHub Issue** in your repository
+> 2. **Drag and drop** the video file into the issue comment box
+> 3. **Copy the generated URL** (starts with `https://user-images.githubusercontent.com/`)
+> 4. **Replace** `https://user-images.githubusercontent.com/YOUR_USER_ID/video-id-here.mp4` above
+> 5. **Close the issue** (or keep it as documentation)
+> 
+> **Alternative viewing:**
+> - **📁 Download**: [Recording 2025-08-01 162834.mp4](./Recording%202025-08-01%20162834.mp4) (Git LFS)
+> - **🌐 GitHub**: [View on GitHub](https://github.com/smit-faldu/Bank-Statement-OCR-Data-Extraction-System/blob/main/Recording%202025-08-01%20162834.mp4)
 
 **🎬 What you'll see in this demo:**
 - 🚀 **Web App Launch**: Starting the Streamlit interface
@@ -57,6 +76,73 @@ A comprehensive AI-powered pipeline for extracting structured data from scanned 
 - 📊 **Interactive Results**: Explore data in Summary, Transactions, and JSON views
 - 💾 **Export Options**: Download results as JSON and CSV files
 - ⚡ **Speed**: Complete processing in just 8 seconds!
+
+### 🖼️ Visual Workflow Preview
+
+**Step-by-Step Process:**
+
+```mermaid
+graph LR
+    A[📤 Upload Statement] --> B[👁️ Preview Document]
+    B --> C[🎯 Customize Prompt]
+    C --> D[🚀 Process]
+    D --> E[🔄 OCR + AI Analysis]
+    E --> F[📊 View Results]
+    F --> G[💾 Download Data]
+    
+    style A fill:#e1f5fe
+    style D fill:#f3e5f5
+    style F fill:#e8f5e8
+```
+
+**Web Interface Preview:**
+
+```
+🏦 Bank Statement OCR & Data Extraction System
+════════════════════════════════════════════════════════════
+
+┌─ 📤 Upload Section ─────────┐  ┌─ 👁️ Preview Panel ────────┐
+│                             │  │                            │
+│  📁 Drag & Drop Zone        │  │  🖼️ Document Preview       │
+│  ┌─────────────────────────┐ │  │  ┌──────────────────────┐ │
+│  │   Drop files here or    │ │  │  │                      │ │
+│  │   📎 Browse Files       │ │  │  │   [Bank Statement]   │ │
+│  │                         │ │  │  │      Preview         │ │
+│  │   Supports: JPG, PNG,   │ │  │  │                      │ │
+│  │   PDF, TIFF, BMP        │ │  │  └──────────────────────┘ │
+│  └─────────────────────────┘ │  │                            │
+│                             │  │  📄 File: statement.jpg     │
+│  🎯 Custom Prompt:          │  │  📏 Size: 2.1 MB           │
+│  ┌─────────────────────────┐ │  └────────────────────────────┘
+│  │ Extract all banking     │ │
+│  │ information including   │ │
+│  │ transactions, account   │ │
+│  │ details, and balances   │ │
+│  └─────────────────────────┘ │
+│                             │
+│     🚀 [Process Statement]   │
+└─────────────────────────────┘
+
+┌─ 📊 Results Dashboard ──────────────────────────────────────┐
+│                                                             │
+│  📈 Summary | 💳 Transactions | 📄 JSON | 💾 Download       │
+│  ═══════════════════════════════════════════════════════   │
+│                                                             │
+│  🏦 Bank: Crédit Agricole        📅 Date: December 2019    │
+│  🔢 Account: ****1234            💰 Balance: €2,847.32     │
+│  📊 Transactions: 15             💸 Total Debits: €1,200   │
+│  ⚡ Processing Time: 8.2s        💵 Total Credits: €3,200  │
+│                                                             │
+│  ┌─ 💳 Recent Transactions ─────────────────────────────┐   │
+│  │ Date       │ Description           │ Debit  │ Credit │   │
+│  │ 2019-12-15 │ VIREMENT SALAIRE     │        │ €2,500 │   │
+│  │ 2019-12-14 │ ACHAT CB MONOPRIX    │ €45.67 │        │   │
+│  │ 2019-12-13 │ RETRAIT DAB          │ €50.00 │        │   │
+│  └────────────────────────────────────────────────────────┘   │
+│                                                             │
+│  💾 [Download JSON] 📊 [Download CSV] 🔄 [Process Another] │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ## 🏗️ Project Architecture
 
